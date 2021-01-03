@@ -250,3 +250,19 @@ input::-webkit-input-placeholder {
     font-size: 20px;
     text-indent: 1.5em;
 }
+
+aside div {
+    position:fixed;
+    right:20px;
+    bottom:50px;
+}
+
+aside div a {
+    display: block;
+    width: 50px; 
+    height: 50px; 
+    background-color: red; 
+    color: white; 
+    font-size: 40px; 
+    text-align: center;
+}
