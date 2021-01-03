@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link rel="stylesheet" href="../css/reg.css" type="text/css">
+    <script src="../js/reg.js"></script>
+    <!-- <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> -->
+    <!-- <script src="../js/moudle.js"></script> -->
+
+</head>
+
+<body>
+    <div class="hot">
+        <div class="box">
+            注册
+        </div>
+        <div class="infbox">
+            <div><label>用户名：<input type="text" name="username" class="input" id="username"></label></div>
+            <div><label>密码：<input type="text" name="psd" class="input" id="psd"></label></div>
+            <div><label>昵称：<input type="text" name="nickname" class="input" id="niname"></label></div>
+            <div>性别：<label style="margin-right: 20px;"><input type="radio" value="male" name="sex" checked>男</label><label><input type="radio"value="female" name="sex">女</label></div>
+
+            <div>出生年月：
+                <select name="year" class="select" id="year">
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                </select>
+                <select name="month" class="select" id="month">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <div><label>所在地：<input type="text" name="place" class="input" id="place"></label> </div>
+            <div><label>头像:<input type="text" name="img" class="input" id="img"></label> </div>
+            <div style="width: 500px; " ><p style="text-align: center; width: 500px;"> 把头像存到../file/src目录下,然后把文件名填进去</p></div>
+            
+            <div><button onclick="reg()">注册</button></div>
+        </div>
+    </div>
+</body>
+
+</html>

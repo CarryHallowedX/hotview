@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: hidden; */
+    user-select: none;
+    text-decoration: none;
+}
+
+@keyframes change {
+    from {
+
+    }
+
+    to {
+        background-color:#b22f2f;
+    }
+}
+
+@keyframes change1 {
+    from {
+
+    }
+
+    to {
+        background-color:#d2d2d2;
+    }
+}
+
+html,body {
+    min-width: 1390px;
+}
+
+input::-webkit-input-placeholder {
+    color: #c67171;
+    font-size: 17px;
+  }
+
+.sum {
+    /* display: flex;
+    align-items:center; */
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    display: flex;
+    align-items:center;
+    /* overflow: hidden; */
+    /* padding: 0 100px; */
+    height: 60px;
+    background-color: #c62f2f;
+    line-height: 60px;
+}
+
+ .usimg {
+    /* margin-left: 20px; */
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.head .logo {
+    padding:0 100px;
+    display: inline-block;
+    height: 100%;
+    font: normal 700 35px/60px "华文行楷";
+    color: white;
+}
+
+.head .button {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.head .button:hover {
+    /* background-color: #b22f2f; */
+    
+    animation:change 0.5s;
+    animation-fill-mode:forwards;
+}
+
+.head .searchbg {
+    margin-left: 40px;
+    background-color: #a82828;
+    width: 370px;
+    height: 40px;
+    color: black;
+    border-radius: 20px;
+    margin-right: 80px;
+}
+
+.head .searchbg .input {
+    /* display: block; */
+    /* width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: auto; */
+    width: 280px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    background-color: rgba(255,255,255,0);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    
+}
+
+.head input:focus {
+    color: white;
+}
+
+.hot {
+    /* background-color: #f5f5f5; */
+    /* border: 1px solid #f0f0f0; */
+    position: relative;
+    box-shadow:  0 0 5px 5px rgba(0,0,0,.3);
+    background-color: #fafafa;
+    margin: 15px;
+    width: 1000px;
+    padding: 15px;
+    /* height: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+    /* display: flex; */
+}
+
+
+.hot .box {
+    z-index: 0;
+    overflow: hidden;
+    height: 50px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    position: relative;
+}
+
+.hot .box .header {
+   
+    font-family: "黑体";
+    font-weight: 600;
+    /* float: left; */
+    width: 80px;
+    /* background-color: #e0e0e0; */
+    margin: 1px;
+    float: left;
+    /* display: inline-block; */
+    display: block;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.hot .down {
+    /* height: 40px; */
+    /* width: 100px; */
+    /* background-color: black; */
+    z-index: -1;
+    position: absolute;
+    top:70px ;
+    /* z-index: 1; */
+    width: 1000px;
+    background-color: rgba(100,100,100,.1);
+}
+
+.hot .down .son {
+    text-align: center;
+    display: block;
+    width: 60px;
+    float: left;
+    color: black;
+    line-height: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hot .down .son:hover {
+
+    color: red;
+
+}
+
+
+.hot .header:hover {
+
+    margin: 0;
+    background-color: #fafafa;
+    border: 1px rgba(0,0,0,.1) solid;
+    color: red;
+    animation:change1 0.5s;
+    animation-fill-mode:forwards;
+}
+
+
+.hot .view {
+    margin-top: 20px;
+    border-bottom:2px solid rgba(0,0,0,.5);
+}
+
+.hot .view .box {
+    padding-left: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hot .view .box .usimg {
+    /* margin-left: 20px; */
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.hot .view .box .name {
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: "宋体";
+}
+
+.hot .view .text {
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    /* display: block; */
+    background-color: #fafafa;
+    /* width: 700px; */
+    /* height: 100px; */
+    border: 2px outset;
+    font-family: "宋体";
+    font-weight: 500;
+    font-size: 20px;
+    text-indent: 1.5em;
+}

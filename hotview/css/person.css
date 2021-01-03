@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    display: block;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.inf {
+
+    box-shadow:  0 0 5px 5px rgba(0,0,0,.3);
+    background-color: #fafafa;
+    margin: 15px;
+    width: 1000px;
+    /* padding: 15px; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.inf .infbox {
+    position: relative;
+    background-image: linear-gradient(red,white)
+}
+
+.inf .box {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background-image:radial-gradient(white,yellow,red)
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.inf .box img {
+    display: block;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inf table {
+    /* border: 1px solid black; */
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.inf table tr {
+    display: block;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    /* border-collapse:collapse */
+}
+
+.inf table tr td {
+    text-align: center;
+    width: 300px;
+}
+
+.inf .edit{
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 30px;
+    margin: auto;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.logout {
+    width: 50px;
+    bottom: 5px;
+    position: absolute;
+    right: 10px;
+}
+.logout a {
+    color: black;
+    text-decoration: none;
+}

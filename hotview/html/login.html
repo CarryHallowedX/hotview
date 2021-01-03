@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css" type="text/css">
+    <script src="../js/login.js"></script>
+    <!-- <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> -->
+</head>
+
+<body onload="checkCookie()">
+
+    <img src="../src/start.jpg" alt="" class="start">
+
+    <div class="box">
+        <div>
+            <h2>热评留言榜</h2>
+        </div>
+        <div style="margin: 10px; overflow: hidden;">
+            <form action="" id="form">
+                <div class="shell">
+                    账号：
+                    <div class="bg">
+                        <input type="text" name="usn" placeholder="账号" onblur="tag(1)">
+                        <span>
+                            <p>
+
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="shell">
+                    密码：
+                    <div class="bg">
+                        <input type="password" name="psd" placeholder="密码" onblur="tag(2)">
+                        <span>
+                            <p>
+
+                            </p>
+                        </span>
+                    </div>
+
+                </div>
+                <div>
+                    <a href="#" onclick="login()" class="login">登录</a>
+
+                </div>
+                <span style="display: block;margin: auto; position: static;">
+                    <p style="text-align: center;">
+                        
+                    </p>
+                </span>
+
+                <!-- <a href="#">注册</a> -->
+            </form>
+        </div>
+        <div class="reg">
+            <a href="#" onclick="reg()">
+                没有账号？点我注册
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
