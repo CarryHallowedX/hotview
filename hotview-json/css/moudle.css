@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    user-select: none;
+    /* user-select: none; */
     text-decoration: none;
 }
 
@@ -30,8 +30,8 @@ html,body {
 }
 
 
-.hot .box {
+.hot>.box {
     height: 50px;
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: 3px solid rgba(0,0,0,.3);
 }
 

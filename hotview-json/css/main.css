@@ -32,8 +32,6 @@
     border-bottom: 1px solid rgba(0,0,0,.1);
 } */
 
-
-
 @font-face{
     font-family: '黑体';
     font-display: swap;
@@ -73,7 +71,7 @@
 
 .hot .view {
     margin-top: 20px;
-    border-bottom:2px solid rgba(0,0,0,.5);
+    border-bottom:2px solid rgba(0,0,0,.1);
 }
 
 .hot .view .box {
@@ -100,16 +98,14 @@
 }
 
 .hot .view .text {
-    padding: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    border: 2px outset;
+    width: 820px;
+    margin: auto;
+    margin-bottom: 30px;
     background-color: #fafafa;
     font-family: "宋体";
     font-size: 20px;
     font-weight: 500;
-    text-indent: 1.5em;
+
 }
 
 aside div {
@@ -127,3 +123,11 @@ aside div a {
     font-size: 40px; 
     text-align: center;
 }
+
+pre {
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;       
+    } 

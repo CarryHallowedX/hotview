@@ -36,5 +36,5 @@ function clear() {
 }
 
 function back() {
-    history.go(-1);
+    history.go(-2);
 }

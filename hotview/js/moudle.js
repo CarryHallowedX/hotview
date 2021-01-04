@@ -29,5 +29,5 @@ function addview(usn, mes, src) {
     }
     
     var div = document.getElementById('views');
-    div.innerHTML += "<div class=\"view\"><div class=\"box\"><a href=\"\"><img src=\"" + img + "\" class=\"usimg\"></a><div class=\"name\">" + username + "</div></div><div class=\"text\"><p>" + text + "</p>    </div></div>"
+    div.innerHTML += "<div class=\"view\"><div class=\"box\"><a href=\"\"><img src=\"" + img + "\" class=\"usimg\"></a><div class=\"name\">" + username + "</div></div><div class=\"text\"><p><pre>" + text + "</pre></p>    </div></div>"
 }

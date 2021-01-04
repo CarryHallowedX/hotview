@@ -27,8 +27,6 @@ html,body {
     min-width: 1390px;
 }
 
-
-
 input::-webkit-input-placeholder {
     color: #c67171;
     font-size: 17px;
@@ -118,12 +116,12 @@ input::-webkit-input-placeholder {
 }
 
 
-.hot .box {
+.hot>.box {
     position: relative;
     overflow: hidden;
     z-index: 0;
     height: 50px;
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: 3px solid rgba(0,0,0,.3);
 }
 
 .hot .box .header {
@@ -178,7 +176,7 @@ input::-webkit-input-placeholder {
 
 .hot .view {
     margin-top: 20px;
-    border-bottom:2px solid rgba(0,0,0,.5);
+    border-bottom:2px solid rgba(0,0,0,.1);
 }
 
 .hot .view .box {
@@ -205,16 +203,14 @@ input::-webkit-input-placeholder {
 }
 
 .hot .view .text {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 2px outset;
+    width: 820px;
+    margin: auto;
+    margin-bottom: 30px;
     background-color: #fafafa;
     font-family: "宋体";
     font-size: 20px;
     font-weight: 500;
-    text-indent: 1.5em;
+
 }
 
 aside div {
@@ -232,3 +228,12 @@ aside div a {
     font-size: 40px; 
     text-align: center;
 }
+
+pre {
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;       
+    } 
+

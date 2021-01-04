@@ -121,7 +121,7 @@ function tag(a) {
             p[1].innerHTML = "请输入密码"
         }
         else {
-            p[0].innerHTML = ""
+            p[1].innerHTML = ""
         }
     }
 }

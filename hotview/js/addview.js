@@ -2,6 +2,7 @@ function addview() {
     var username = sessionStorage.getItem("username");
     var mes = document.getElementsByTagName('textarea');
     var text = mes[0].value.replace(/\"/g, "\\\"");
+    text = mes[0].value.replace(/\n/g, "<br>");
     console.log("运行");
     if (text == "" || text == null) {
         var p = document.getElementsByTagName('p');
@@ -31,11 +32,11 @@ function addview() {
 
 }
 
-function clear() {
-    var p = document.getElementsByTagName('p');
-    p[0].innerHTML = "0000";
-}
+// function clear() {
+//     var p = document.getElementsByTagName('p');
+//     p[0].innerHTML = "0000";
+// }
 
 function back() {
-    history.go(-1);
+    history.go(-2);
 }
