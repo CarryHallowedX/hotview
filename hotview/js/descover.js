@@ -4,6 +4,9 @@ function appear() {
 }
 
 function disappear() {
+    // setTimeout(() => {
+
+    // }, 500);
     var box = document.getElementById('box');
     box.style.zIndex = -1;
 }

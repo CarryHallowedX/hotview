@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: '华文行楷';
+    font-display: swap;
+    src: url('../src/font/华文行楷.ttf');
+}
+
+@keyframes change {
+    from {
+    }
+
+    to {
+        background-color:#b22f2f;
+    }
+}
+
+html,body {
+    min-width: 1390px;
+    height: 100%;
+}
+
+input::-webkit-input-placeholder {
+    color: #c67171;
+    font-size: 17px;
+  }
+
+.sum {
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    display: flex;
+    align-items:center;
+    height: 60px;
+    background-color: #c62f2f;
+    line-height: 60px;
+}
+
+ .usimg {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.head .logo {
+    display: inline-block;
+    height: 100%;
+    padding:0 100px;
+    font: normal 500 35px/60px "华文行楷";
+    color: white;
+}
+
+.head .button {
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.head .button:hover {
+    animation:change 0.5s;
+    animation-fill-mode:forwards;
+}
+
+.head .searchbg {
+    width: 370px;
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 80px;
+    background-color: #a82828;
+    color: black;
+    border-radius: 20px;
+}
+
+.head .searchbg .input {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    background-color: rgba(255,255,255,0);
+    outline: none;
+    font-size: 15px;
+    
+}
+

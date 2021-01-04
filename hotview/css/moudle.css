@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+@keyframes change {
+    
+    from {
+    }
+
+    to {
+        background-color:#b22f2f;
+    }
+}
+
+html,body {
+    min-width: 1390px;
+}
+
+.hot {
+    width: 1000px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: #fafafa;
+    box-shadow:  0 0 5px 5px rgba(0,0,0,.3);
+}
+
+
+.hot .box {
+    height: 50px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+

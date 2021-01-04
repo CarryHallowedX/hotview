@@ -2,10 +2,11 @@ function addview() {
     var username = sessionStorage.getItem("username");
     var mes = document.getElementsByTagName('textarea');
     var text = mes[0].value.replace(/\"/g, "\\\"");
-
+    console.log("运行");
     if (text == "" || text == null) {
         var p = document.getElementsByTagName('p');
         p[0].innerHTML = "留言不可以为空！"
+        console.log("变");
         return;
     }
 

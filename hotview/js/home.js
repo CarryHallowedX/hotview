@@ -1,5 +1,24 @@
+window.onhashchange = function () {
+    var hash = window.location.hash;
+    var path = hash.substring(1);
 
-function test(I) {
+    switch (path) {
+        case '/main':
+            goto(1);
+            break;
+        case '/discover':
+            goto(2);
+            break;
+        case '/addview':
+            goto(3);
+            break;
+        default:
+            break;
+    }
+}
+
+
+function goto(I) {
     var iframe = document.getElementById('a');
     var s = I;
 

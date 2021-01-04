@@ -1,0 +1,13 @@
+{
+  "name": "hotview",
+  "homepage": "https://github.com/CarryHallowedX/hotview",
+  "authors": [
+    "784147230@qq.com <784147230@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
