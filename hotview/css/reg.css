@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+body {
+    background-color: rgb(252, 221, 192);
+}
+
 .infbox {
     width: 500px;
     margin: auto;
@@ -18,7 +22,7 @@
     width: 300px;
     margin: auto;
     margin-top: 20px;
-    font-weight: 520;
+    font-weight: 600;
 }
 
 .infbox div .input {
@@ -28,7 +32,7 @@
 }
 
 .infbox div .select {
-    width: 50px;
+    width: 70px;
     height: 25px;
     margin-right: 10px;
 }

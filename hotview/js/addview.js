@@ -15,7 +15,7 @@ function addview() {
     var blog = JSON.parse(localStorage.getItem("blog"));
     var a = 0;
 
-    for (; blog.mes[a] != "" && blog.mes[a] != null; a++) {}
+    for (; blog.mes[a] != "" && blog.mes[a] != null; a++) { }
 
     var blogtostr = JSON.stringify(blog);
     blogtostr = blogtostr.substring(0, blogtostr.length - 2);
@@ -26,7 +26,7 @@ function addview() {
     else {
         blogtostr = blogtostr + "," + blogplus + "]}";
     }
-    
+
     localStorage.setItem("blog", blogtostr);
     back();
 
@@ -38,5 +38,13 @@ function addview() {
 // }
 
 function back() {
-    history.go(-2);
+    history.back(-1);
+    history.back(-1);
 }
+
+// function back() {
+//     var back=document.getElementsByClassName('back');
+//     var parent=back[0].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
+//     console.log(parent);
+//     parent.src='home.html';
+// }
